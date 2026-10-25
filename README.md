@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-OWL classical cipher toolkit — Caesar, Vigenere, Playfair, XOR
+OCipher is a classical cipher tool for encrypting and decrypting text with a wide range of historical algorithms. It supports Caesar, Vigenère, ROT13, Atbash, Playfair, Rail Fence, Beaufort, Affine, Bacon, Polybius and XOR, plus auto-detection of unknown ciphers. It also includes brute-force Caesar for quick recovery of shifted text.
 
 ---
 
 ## ✨ Features
 
-- OWL classical cipher toolkit — Caesar, Vigenere, Playfair, XOR
+- Caesar, ROT13, Atbash, Vigenère, Beaufort and Affine ciphers
+- Playfair, Rail Fence, Bacon and Polybius encoding/decoding
+- XOR encryption with a key
+- Auto-detection of unknown classical ciphers
+- Brute-force Caesar for shifted text
+- Interactive menu-driven interface
 
 ---
 
@@ -39,6 +44,7 @@ OWL classical cipher toolkit — Caesar, Vigenere, Playfair, XOR
 
 ```bash
 ./OCipher
+./OCipher --help
 ```
 
 ---
